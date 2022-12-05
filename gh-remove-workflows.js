@@ -1,5 +1,4 @@
 const { exec } = require("child_process");
-const { fileURLToPath } = require("url");
 
 const removeWorkflows = (user_, repo_) => {
     exec(

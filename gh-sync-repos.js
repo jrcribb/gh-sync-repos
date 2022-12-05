@@ -60,7 +60,7 @@ const syncRepos = async () => {
                                 (error, stdout, stderr) => {
                                     console.log("REPOSITORY NAME: ",html_url);
                                     console.log("Description: ",description ? description : "Sin descripción");
-                                    removeWorkflows(ghUser, name);
+                                    //removeWorkflows(ghUser, name);
                                     if (error) {
                                         console.error(" Error:",`Sincronización fallida: ${error.message}`);
                                     } else {
