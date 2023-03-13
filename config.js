@@ -1,0 +1,3 @@
+const GITHUB_USERNAME = "jrcribb"
+
+exports.GITHUB_USERNAME = GITHUB_USERNAME
